@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRCC7MB4');</script>
+<!-- End Google Tag Manager -->
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cleanizy - Nettoyage Canapé, Matelas & Vitres à Marseille</title>
+    <meta name="description" content="Expert du nettoyage en profondeur à Marseille. Canapés, matelas, tapis, voiture et fin de chantier. Technologie vapeur anti-acariens. Devis gratuit.">
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Cleanizy - Nettoyage Professionnel Marseille">
+    <meta property="og:url" content="https://cleanizy-marseille.fr">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:description" content="Redonnez vie à votre intérieur. Nettoyage vapeur écologique à Marseille.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CleaningService",
+      "name": "Cleanizy",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+      "@id": "https://cleanizy-marseille.fr",
+      "url": "https://cleanizy-marseille.fr",
+      "telephone": "+33781261208",
+      "email": "cleanizy13@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Marseille",
+        "addressRegion": "Provence-Alpes-Côte d'Azur",
+        "postalCode": "13000",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.296482,
+        "longitude": 5.369780
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "42"
+      },
+      "areaServed": "Marseille",
+      "priceRange": "€€"
+    }
+    </script>
+
+    <style>
+        /* --- VARIABLES --- */
+        :root {
+            --primary: #4F8F8B;
+            --primary-dark: #2F7F77;
+            --secondary: #8FC7BF;
+            --bg-light: #FAFAFA;
+            --text-main: #1F2937;
+            --text-light: #6B7280;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            --radius: 12px;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        /* --- RESET --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        
+        body {
+            font-family: var(--font-body);
+            color: var(--text-main);
+            background: var(--bg-light);
+            line-height: 1.6;
+            padding-bottom: 70px; /* Espace pour sticky bar mobile */
+        }
+        @media (min-width: 768px) { body { padding-bottom: 0; } }
+
+        img { max-width: 100%; display: block; }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        ul { list-style: none; }
+
+        /* --- TYPOGRAPHY & UTILS --- */
+        h1, h2, h3 { font-family: var(--font-heading); color: var(--primary-dark); line-height: 1.2; }
+        h1 { font-size: 2rem; margin-bottom: 1rem; }
+        h2 { font-size: 1.75rem; text-align: center; margin-bottom: 2rem; }
+        h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+        p { margin-bottom: 1rem; color: var(--text-light); }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .section-padding { padding: 4rem 0; }
+
+        /* --- BUTTONS --- */
+        .btn {
+            display: inline-block;
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(47, 127, 119, 0.3);
+        }
+        .btn:hover { background: var(--primary); transform: translateY(-2px); }
+
+        /* --- HEADER --- */
+        header {
+            background: var(--white);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-container { height: 70px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem; color: var(--primary-dark); display: flex; align-items: center; gap: 0.5rem; }
+        .nav-links { display: none; gap: 2rem; font-weight: 500; }
+        .nav-cta { display: none; }
+
+        @media (min-width: 768px) {
+            .nav-links { display: flex; }
+            .nav-cta { display: block; }
+        }
+
+        /* --- HERO --- */
+        .hero {
+            background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.8)), url('https://images.unsplash.com/photo-1527515637-62c990262bfa?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        .hero-content { max-width: 800px; margin: 0 auto; }
+        .tagline { background: var(--secondary); color: var(--primary-dark); padding: 0.2rem 1rem; border-radius: 20px; font-size: 0.9rem; font-weight: 600; display: inline-block; margin-bottom: 1rem; }
+
+        /* --- BENEFITS --- */
+        .benefits-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; }
+        .benefit-item { background: var(--white); padding: 2rem; border-radius: 12px; text-align: center; box-shadow: var(--shadow); }
+        .icon-box { 
+            width: 60px; height: 60px; background: var(--secondary); border-radius: 50%; 
+            display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: var(--primary-dark);
+        }
+        @media (min-width: 768px) { .benefits-grid { grid-template-columns: repeat(3, 1fr); } }
+
+        /* --- SERVICES --- */
+        .services-bg { background: var(--white); }
+        .services-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; }
+        .service-card { border: 1px solid #eee; border-radius: 12px; overflow: hidden; background: var(--white); transition: 0.3s; }
+        .service-card:hover { box-shadow: var(--shadow); border-color: var(--secondary); }
+        
+        /* Images adaptées en hauteur */
+        .img-wrapper { height: 220px; overflow: hidden; position: relative; }
+        .img-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+        
+        .service-content { padding: 1.5rem; }
+        .service-content ul li { display: flex; align-items: center; gap: 0.5rem; font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .check { color: var(--primary-dark); font-weight: bold; }
+
+        @media (min-width: 768px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (min-width: 1024px) { .services-grid { grid-template-columns: repeat(4, 1fr); } }
+
+        /* --- REVIEWS (AVIS) --- */
+        .reviews-section {
+    background-color: #F0FDFA; /* Fond vert très pâle */
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* C'est ici que la magie opère pour centrer sur PC */
+@media (min-width: 768px) {
+    .reviews-grid {
+        display: flex;             /* On passe en Flexbox */
+        justify-content: center;   /* On centre les éléments horizontalement */
+        align-items: stretch;      /* On s'assure qu'ils aient la même hauteur */
+        gap: 2rem;                 /* Espace entre les cartes */
+        flex-wrap: wrap;           /* Permet de passer à la ligne si besoin */
+    }
+    
+    .review-card {
+        width: 100%;
+        max-width: 450px;          /* On limite la largeur pour que ce soit élégant */
+        flex: 1 1 300px;           /* Flexibilité des cartes */
+    }
+}
+
+.review-card {
+    background: var(--white);
+    padding: 2rem;                 /* Un peu plus d'espace interne */
+    border-radius: var(--radius);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Ombre légère */
+    border: 1px solid #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #FBBF24; /* Jaune étoiles */
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.review-text {
+    font-style: italic;
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.review-author {
+    font-weight: 700;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: auto; /* Pousse l'auteur vers le bas */
+}
+
+.verified {
+    color: #0F766E;
+    background: #CCFBF1;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+        @media (min-width: 768px) { .reviews-grid { grid-template-columns: repeat(3, 1fr); } }
+
+        /* --- LOCAL SEO --- */
+        .local-seo { background-color: var(--primary-dark); color: var(--white); text-align: center; }
+        .local-seo h2, .local-seo p { color: var(--white); }
+        .zone-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin-top: 2rem; }
+        .zone-tag { background: rgba(255,255,255,0.2); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem; }
+
+        /* --- FOOTER --- */
+        footer { background: #111827; color: #9CA3AF; padding: 4rem 0 2rem; }
+        .footer-content { display: flex; flex-direction: column; gap: 2rem; text-align: center; margin-bottom: 2rem; }
+        .footer-logo { color: var(--white); font-weight: 700; font-size: 1.5rem; display: block; margin-bottom: 1rem; }
+        .contact-row { display: flex; justify-content: center; align-items: center; gap: 0.5rem; color: var(--white); margin-bottom: 0.5rem; font-weight: 500; }
+        .copyright { text-align: center; border-top: 1px solid #374151; padding-top: 2rem; font-size: 0.8rem; }
+        
+        @media (min-width: 768px) { 
+            .footer-content { flex-direction: row; justify-content: space-between; text-align: left; } 
+            .contact-row { justify-content: flex-start; }
+        }
+
+        /* --- MOBILE STICKY --- */
+        .sticky-mobile {
+            position: fixed; bottom: 0; left: 0; width: 100%;
+            background: var(--white); padding: 0.8rem;
+            display: flex; gap: 1rem; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            z-index: 999;
+        }
+        .sticky-btn {
+            flex: 1; padding: 0.8rem; text-align: center;
+            border-radius: 8px; font-weight: 600; display: flex; justify-content: center; align-items: center; gap: 0.5rem;
+        }
+        .btn-sms { background: #E5E7EB; color: var(--text-main); }
+        .btn-call { background: var(--primary-dark); color: var(--white); }
+        @media (min-width: 768px) { .sticky-mobile { display: none; } }
+
+    </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRCC7MB4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+                Cleanizy
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#avantages">Expertise</a></li>
+                    <li><a href="#avis">Avis Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+33781261208" class="btn nav-cta">07 81 26 12 08</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="tagline">Intervention Rapide à Marseille & Alentours</span>
+            <h1>Nettoyage en profondeur sain et durable</h1>
+            <p>Spécialiste du nettoyage vapeur : canapés, matelas, intérieurs de voiture et fin de chantier. Éliminez 99% des bactéries sans produits chimiques.</p>
+            <div style="margin-top: 2rem;">
+                <a href="tel:+33781261208" class="btn">Obtenir un devis gratuit</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="avantages" class="section-padding">
+        <div class="container">
+            <h2>Pourquoi choisir Cleanizy ?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="icon-box">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Hygiène & Santé</h3>
+                    <p>Vapeur haute pression anti-acariens. Idéal pour les familles et allergiques.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-box">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h3>Résultat Pro</h3>
+                    <p>Machine injection-extraction professionnelle pour éliminer les tâches tenaces.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-box">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3>100% Local</h3>
+                    <p>Entreprise marseillaise. Déplacement rapide dans tout le 13.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding services-bg">
+        <div class="container">
+            <h2>Nos Services de Nettoyage</h2>
+            <div class="services-grid">
+                
+                <article class="service-card">
+                    <div class="img-wrapper">
+                        <img src="nettcanap.png" alt="Nettoyage vapeur canapé tissu" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Ameublement</h3>
+                        <p>Ravivez les couleurs et désinfectez vos tissus.</p>
+                        <ul>
+                            <li><span class="check">✓</span> Canapés & Fauteuils</li>
+                            <li><span class="check">✓</span> Matelas (Anti-acariens)</li>
+                            <li><span class="check">✓</span> Tapis & Moquettes</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=600&q=80" alt="Nettoyage intérieur voiture detailing" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Véhicules</h3>
+                        <p>Detailing intérieur minutieux à domicile.</p>
+                        <ul>
+                            <li><span class="check">✓</span> Shampouinage sièges</li>
+                            <li><span class="check">✓</span> Aspiration complète</li>
+                            <li><span class="check">✓</span> Plastiques & Vitres</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="img-wrapper">
+                        <img src="REE.png" alt="Laveur de vitres professionnel" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Vitrerie</h3>
+                        <p>Clarté parfaite sans aucune trace.</p>
+                        <ul>
+                            <li><span class="check">✓</span> Fenêtres & Baies</li>
+                            <li><span class="check">✓</span> Vérandas</li>
+                            <li><span class="check">✓</span> Vitrines magasins</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="img-wrapper">
+                        <img src="vitre.png" alt="Nettoyage fin de chantier" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3>Remise en état</h3>
+                        <p>Pour propriétaires et professionnels.</p>
+                        <ul>
+                            <li><span class="check">✓</span> Fin de chantier</li>
+                            <li><span class="check">✓</span> État des lieux</li>
+                            <li><span class="check">✓</span> Fin de bail</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="avis" class="section-padding reviews-section">
+        <div class="container">
+            <h2>Ce que nos clients disent de nous</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    
+                    <div>
+                        <span class="stars">★★★★★</span>
+                        <p class="review-text">"Personne sympathique et efficace , arriver à l’heure tout c’est bien passé le nettoyage de ma voiture parfait plus de tâches sur les sièges , plastique parfait , la société est bien équipé en matériel je recommande sans hésitez. La société fait aussi du nettoyage canapé matelas et autres contactez les ."</p>
+                    </div>
+                    <div class="review-author">
+                        <span>Michel Fezard</span>
+                        <span class="verified">Vérifié</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div>
+                        <span class="stars">★★★★★</span>
+                        <p class="review-text">"Ponctuel, sympathique, efficace. Le nettoyage à fond de l'intérieur de ma voiture est parfait"</p>
+                    </div>
+                    <div class="review-author">
+                        <span>JP</span>
+                        <span class="verified">Vérifié</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding local-seo">
+        <div class="container">
+            <h2>Votre expert propreté dans les Bouches-du-Rhône</h2>
+            <p>Cleanizy intervient 7j/7 pour le nettoyage à domicile et en entreprise.</p>
+            <div class="zone-list">
+                <span class="zone-tag">Marseille (Tous arrondissements)</span>
+                <span class="zone-tag">Aubagne</span>
+                <span class="zone-tag">Aix-en-Provence</span>
+                <span class="zone-tag">La Ciotat</span>
+                <span class="zone-tag">Allauch</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div>
+                <span class="footer-logo">Cleanizy</span>
+                <p>Nettoyage professionnel écologique et minutieux.</p>
+                <a href="https://instagram.com/cleanizy13" target="_blank" style="color:var(--secondary); font-weight:600; display:inline-flex; align-items:center; gap:0.5rem;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    Suivez-nous sur Instagram
+                </a>
+            </div>
+            <div>
+                <h3>Contactez-nous</h3>
+                <a href="tel:+33781261208" class="contact-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    07 81 26 12 08
+                </a>
+                <a href="mailto:cleanizy13@gmail.com" class="contact-row">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    cleanizy13@gmail.com
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 Cleanizy - Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <div class="sticky-mobile">
+        <a href="sms:+33781261208" class="sticky-btn btn-sms">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            SMS
+        </a>
+        <a href="tel:+33781261208" class="sticky-btn btn-call">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Appeler
+        </a>
+    </div>
+
+    <script>
+        console.log('Site Cleanizy chargé - Version 2026');
+        // Smooth scroll pour les ancres
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
