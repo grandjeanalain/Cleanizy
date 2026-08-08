@@ -29,6 +29,7 @@ body {
 img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
+address { font-style: normal; }
 
 /* --- TYPOGRAPHY & UTILS --- */
 h1, h2, h3 { font-family: var(--font-heading); color: var(--primary-dark); line-height: 1.2; }
@@ -73,7 +74,8 @@ header {
 
 /* --- HERO --- */
 .hero {
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.8)), url('https://images.unsplash.com/photo-1527515637-62c990262bfa?auto=format&fit=crop&w=1920&q=80');
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.8)), url('hero-bg.jpg');
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.8)), image-set(url('hero-bg.webp') type('image/webp'), url('hero-bg.jpg') type('image/jpeg'));
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
