@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cleanizy.netlify.app/sitemap.xml
+Sitemap: https://cleanizy.hcomme.fr/sitemap.xml
